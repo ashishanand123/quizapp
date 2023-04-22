@@ -1,0 +1,198 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(188, 143, 240);
+}
+
+
+
+#front {
+    display: block;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 4rem;
+    padding: 1rem;
+    width: auto;
+    background-color: white;
+    height: 100%;
+    align-items: center;
+    box-shadow: .2rem .5rem .2rem #8e43e4;
+
+
+}
+
+
+
+#top {
+    text-align: center;
+}
+
+
+#top input {
+    width: -webkit-fill-available
+}
+
+
+#top button {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+/* Select category css  */
+
+
+
+
+#select_category {
+
+    display: none;
+    background-color: whitesmoke;
+
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 11rem auto;
+    width: auto;
+    text-align: center;
+    box-shadow: .2rem .5rem .2rem #8e43e4;
+}
+
+
+#select_category h2 {
+    padding-top: 2rem;
+}
+
+.design {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: .2rem .5rem .2rem #605f60;
+}
+
+
+.btn_category button {
+    margin: .3rem .7rem;
+  
+
+}
+
+/* New Styles */
+#header {
+    background-color: rgb(245, 226, 201);
+    border-radius: 2rem;
+    padding: .6rem;
+}
+
+
+
+
+
+
+
+
+#category {
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    margin: 2rem;
+    padding: 1rem;
+    width: auto;
+}
+
+
+
+.container {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: .2rem .5rem .2rem #605f60;
+}
+
+
+
+div.col.box {
+    font-size: larger;
+    font-weight: 200;
+    margin-top: .5rem;
+}
+
+
+
+/*------------- next question css---- */
+.container button {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+/* -------------------Timer CSS-------------- */
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px rgb(56, 55, 55);
+    margin-top: 10px;
+}
+
+
+
+
+
+
+#questionBox {
+    border: solid 2px rgb(56, 55, 55);
+    background-color: whitesmoke;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: auto;
+    text-align: justify;
+    box-shadow: .1rem .3rem .5rem #807f7f;
+}
+
+
+.answer{
+    padding-left: 1rem;
+}
+
+
+
+.box2 {
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgb(152, 224, 234);
+
+}
+
+
+
+
+/*-------- bottom part css--------- */
+
+
+#bottom button {
+ 
+    font-size: larger;
+    border-radius: 0.4rem;
+}
+
+#restart a {
+text-decoration: none;
+}
+
+#end{
+    color: red;
+}
